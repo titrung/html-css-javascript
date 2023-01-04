@@ -3,7 +3,8 @@
 # Environment 
 - Using IDE VSCode [Download](https://code.visualstudio.com/)
 - Install NodeJS [Download](https://nodejs.org/en/download/)
-- Git, Github `sudo brew install git`
+- Install Git `sudo brew install git`
+- Create Github account https://github.com/
 
 
 ## Document
