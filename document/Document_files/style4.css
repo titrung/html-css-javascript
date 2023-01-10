@@ -1,0 +1,19 @@
+body {
+    background-image: radial-gradient(circle, #456BD9, #456BD9 66%, transparent 66%);
+    height: 5em;
+    width: 5em;
+  
+    background-image: url("https://images02.nicepage.com/c461c07a441a5d220e8feb1a/d1ea4ec1b90e53b28376e977/healthy-food-basket_23-2147694076.jpg") 
+
+  }
+  .test{
+    background-size: cover;
+    background-image: url("https://images02.nicepage.com/c461c07a441a5d220e8feb1a/d1ea4ec1b90e53b28376e977/healthy-food-basket_23-2147694076.jpg")
+    position:absolute;
+    left: 50%;
+    top:50%;
+    width: 50%;
+    height: 50@;
+    border:none;
+    border-radius:50%;
+  }

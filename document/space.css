@@ -1,0 +1,35 @@
+
+body {
+    margin:0px;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Rowdies', cursive; */
+    text-align: center;
+    color: white;
+    width: 500px;
+}
+
+.button {
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-family: 'Orbitron', sans-serif;
+    background: white;
+    border: none;
+    font-weight: 800;
+
+}
+
+.border{
+    border-bottom: 2px dotted white;
+}
+.under{
+    background-size:cover;
+    background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
+    padding: 10px 0px 0px 0px;
+}
+#logo{
+    width:50px;
+    height:20px;
+}
+.ngoai{
+    color: aqua;
+}

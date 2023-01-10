@@ -1,0 +1,52 @@
+
+
+body{
+    text-align:center;
+    font-family: 'Rowdies', cursive;
+    background: linear-gradient(pink , red);
+    color: whitesmoke;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+
+}
+
+h1,h2,h3{
+    text-shadow: 0 0 2px black;
+}
+h2{
+    margin: 20px 0 5px 0;
+    background: pink;
+    padding: 10px 20px;
+    border-radius: 20%;
+}
+h3{
+    margin:0;
+    background: pink;
+    padding: 10px 20px;
+    border-radius: 20%;
+}
+.picture{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid pink;
+    
+
+}
+
+.gift{
+    background-image: url(https://media.istockphoto.com/id/1383842766/vi/anh/h%C3%ACnh-%E1%BA%A3nh-qu%C3%A0-t%E1%BA%B7ng-cho-ng%C3%A0y-c%E1%BB%A7a-cha-v%C3%A0-%C4%91%C3%A0n-%C3%B4ng.jpg?s=1024x1024&w=is&k=20&c=aZ3m7ppmCG-Np6f5v7wPP4okoJTF-SI8zqn2PhIPIEY=);
+    background-size:cover;
+    width: 400px;
+    height: 400px;
+    margin: 50px 20px;
+
+}
+.gift:hover{
+    background-image: url("https://media3.giphy.com/media/DyQrKMpqkAhNHZ1iWe/giphy.gif?cid=ecf05e47nzokryf6hxvy3eoxzbcl736n7dumhxkzpmd8yqrs&rid=giphy.gif&ct=g");
+
+}
+#gift-supprise:hover{
+    background-image: url("https://media.giphy.com/media/l4HodBpDmoMA5p9bG/giphy.gif")
+}

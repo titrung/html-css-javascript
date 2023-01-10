@@ -1,0 +1,32 @@
+
+
+
+body{
+
+margin:20px;
+}
+
+.love {
+  width: 150px;
+  height: 150px;
+  margin-right:20px;
+}
+
+.childcard {
+    width: 400px;
+    background: darksalmon;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-evenly;
+  color:aqua;
+  border-bottom: 3px solid red;
+}
+
+.paragraph {
+    text-align:center;
+    
+}
+.border-res{
+    border: 1px solid red;
+}

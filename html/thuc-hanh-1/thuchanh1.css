@@ -1,0 +1,47 @@
+#line1 {
+    line-height: 1px;
+    font-size: 32px;
+    font-weight: 10;
+    margin: 0;
+
+}
+
+#line2 {
+    line-height: 0;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+
+#line3 {
+    line-height: 50%;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top:0;
+
+}
+#paragraph{
+    margin-right: 50px;
+
+}
+.tep1 {
+    color: white;
+    /* text-align: start; */
+    background: rgb(240, 122, 12);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    padding: 40px;
+    
+
+}
+
+.tep1 >* {
+    width: 100%;
+}
+
+#paragraph {
+    max-width: 300px;
+}
