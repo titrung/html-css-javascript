@@ -1,0 +1,366 @@
+.header{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+
+#logofont{
+
+     font-family: 'Bakbak One', "cursive";
+font-size: 30px;
+color:rgb(198, 195, 195);
+}
+
+
+.hamberger{
+    margin-top: 35px;
+    width: 25px;
+    height: 4px;
+    position: relative;
+    background: gray ;
+    display: block;
+}
+.hamberger:focus ~ .tab-invisible{
+    display: block;
+
+}
+.hamberger::after {
+    content:"";
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top:8px;
+    left:0;
+    background: gray ;
+}
+.hamberger::before {
+    content:"";
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top:16px;
+    left:0;
+    background: gray ;
+}
+.exemple-link{
+    /* display: block; */
+    width: 300px;
+}
+.tabjs{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.tab-invisible{
+    display:none;
+    z-index:2;
+}
+.design1{
+    height: 600px;
+    background-image: url(https://camo.githubusercontent.com/617c4b0eeed480df337fe406990726e151f18ff393bf48443e840adcef95a6cc/68747470733a2f2f696d6167657330332e6e6963657061676563646e2e636f6d2f6334363163303761343431613564323230653866656231612f3433636565636630306466623531393739303331316538322f62696c6c696f6e70686f746f73313838353332336d696e2e706e67);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 50%;
+    background-color: rgb(198, 195, 195);
+}
+.line1-in-design1{
+    font-size: 50px;
+}
+.paragraph-design1{
+    color: rgb(99, 98, 98);
+    padding: 50px 0 0 300px;
+}
+.btn{
+    background-color:rgb(99, 98, 98);
+    color: aliceblue;
+    padding: 15px 35px;
+    border:none;
+}
+.imagegai{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://camo.githubusercontent.com/f8adecd2e24ffebffebfc119208021055fdd4bf91d619d341ecd91095380472f/68747470733a2f2f696d6167657330312e6e6963657061676563646e2e636f6d2f6334363163303761343431613564323230653866656231612f6166336461356630613665323531306639363661326232622f6a6a2e6a7067);
+    background-size:90%;
+    background-repeat: no-repeat;
+    clip-path: circle(40% at 45% 42%);
+    z-index: 2;
+}
+
+.line1-text2{
+    font-size: 30px;
+}
+.link2{
+    font-style:italic;
+}
+.text2{
+    padding-top: 50px;
+    z-index: 2;
+}
+.top2{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+/* .design2{
+    background-color: rgb(207, 202, 202);
+    position: relative; 
+}*/
+/* .background-white{
+    
+    position: absolute;
+    top: 150px;
+
+width: 900px;
+height: 300px;
+background-color: white;
+z-index: 1;
+} */
+.paragraph1-design2{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color:coral;
+    color: aliceblue;
+    margin-right:20px;
+}
+.paragraph2-design2{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color:rgb(104, 89, 89);
+    color: rgb(5, 0, 0);
+    margin-right:20px;
+}
+.paragraph3-design2{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color:rgb(80, 255, 147);
+    color: rgb(21, 22, 23);
+}
+.paragraph-design2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+ .image3-design3{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://camo.githubusercontent.com/fb504c49bb5e2dbd3046c1b28b895f587f98b2f5e3e525d91f7633d9e84272f8/68747470733a2f2f696d6167657330312e6e6963657061676563646e2e636f6d2f6334363163303761343431613564323230653866656231612f3033393031386166356364323563336662346539663738362f712d6d696e2e6a7067);
+    background-size:100%;
+    background-repeat: no-repeat;
+    clip-path: circle(40% at  55% 40%);
+    position:absolute;
+    top:-220px;
+    left: 700px;
+    z-index: 3; 
+   
+ }
+.design3{
+    position: relative;
+    background-color: coral;
+    top: 100px;
+    height: 1200px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    
+}
+.circle3{
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    clip-path: circle();
+    margin: 20px auto 0 20px;
+}
+.box-paragraph3{
+    margin: 0 350px 40px 20px;
+}
+.box-design3{
+    height: 400px;
+    width: 700px;
+    background-color: rgb(200, 208, 171);
+    position: absolute;
+    top: -80px;
+    left: 330px;
+    
+}
+.paragraph-design3{
+    margin-top: 200px;
+     text-align: center;
+    
+}
+.btn-design3{
+    border: none;
+    color: aquamarine;
+    background-color: rgb(103, 85, 85);
+    padding: 5px 10px;
+    margin-left:-4px;
+}
+.ipt-design3{
+    padding:5px;
+    border: none;
+    width: 500px;
+    color: rgba(0, 0, 0, 0.51);
+}
+ .paragraph2-design3{
+    margin: 100px;
+} 
+.design4{
+    position: relative;
+}
+.picture1{
+    color:rgb(151, 190, 224);
+     margin-top:100px ;
+
+     margin-right: 20px ;
+    width: 300px;
+    height: 450px;
+    background-image:url(https://camo.githubusercontent.com/b1eeb7fd0f41e83351e3f16806b9b200f3cfc155536dbb9947be2dc991810a02/68747470733a2f2f696d6167657330312e6e6963657061676563646e2e636f6d2f6334363163303761343431613564323230653866656231612f3436373330396565386332323563353362643032323361352f6d6e6e6d6e6d2e6a7067);
+    background-size:cover;
+
+}
+.paragraph-picture1{
+    padding:300px  20px 20px 20px;
+}
+.picture2{
+    color:rgb(151, 190, 224);
+     margin-top:100px ;
+
+     margin-right: 20px ;
+    width: 300px;
+    height: 450px;
+    background-image:url(https://camo.githubusercontent.com/435c7d531efcbaaec38dfaa686fb7779f0e23e7d919bdc10c24c97e11e750bf5/68747470733a2f2f696d6167657330312e6e6963657061676563646e2e636f6d2f6334363163303761343431613564323230653866656231612f3766363137313530303937303566613638636532633333342f776f6d616e2d73686f77696e672d6d616e2d66696e616e63652d6469616772616d732d7461626c652d6c6170746f702d7061706572735f313236382d31373437382e6a7067);
+    background-size:cover;
+}
+.picture3{
+    color:rgb(151, 190, 224);
+     margin-top:100px ;
+    width: 300px;
+    height: 450px;
+    background-image:url(https://camo.githubusercontent.com/26191d0bf1709dc384f8580bf5508515ae6ac3e5cf46d315401a6b7f257ee300/68747470733a2f2f696d6167657330312e6e6963657061676563646e2e636f6d2f6334363163303761343431613564323230653866656231612f6535393166376637623339623531653738323635343864302f656565652e6a7067);
+    background-size:cover;
+}
+
+.three-picture{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: -250px;
+    left: 18%;
+    
+
+}
+.link-design4{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 350px;
+}
+.design5{
+    background-color:rgb(155, 149, 149);
+    padding-top: 20px;
+    margin-top: 15px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.paragraph-symmetry{
+    display: flex;
+    justify-content: center;
+}
+ .symmetry1{
+    width: 400px;
+    height: 150px;
+    text-align: end;
+    margin-right: 20px;
+} 
+.symmetry2{
+    text-align: start;
+    width: 400px;
+    height: 150px;
+} 
+.design6{
+    position: relative;
+}
+.box1-design6{
+    text-align: center;
+    width: 300px;
+    height: 600px;
+    margin-right: 20px;
+}
+.box-design6{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -150px;
+    left: 18%;
+}
+.link-design6{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 350px;
+}
+.paragraph-design6{
+    margin-top: 100px;
+    text-align: center;
+}
+.box3-design6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(198, 192, 192);
+    padding: 20px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+
+    clip-path: circle(30px at 30px 30px);
+    background-color: aliceblue;
+padding: 10px;
+}
+.combine-box{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.information{
+    height:800px;
+    width: 100%;
+    background-image: url(https://camo.githubusercontent.com/a09ad2a7229783ee73d9ed820835dc1f0e1fa30e6ea0a4440dbf221916ffce28/68747470733a2f2f696d6167657330312e6e6963657061676563646e2e636f6d2f6334363163303761343431613564323230653866656231612f3839313837623364646566653530353239343330343365312f686767682d6d696e2e6a7067);
+    background-size: 100%;
+}
+.box1-infomation{
+    width: 400px;
+    height: 600px;
+    background-color: aliceblue;
+    padding: 60px ;
+    margin: 50px 0 50px 0;
+}
+.box-infomation{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.ipt-information{
+    border:none;
+    opacity: 0.5;
+    width: 100%;
+    height: 30px;
+}
+.btn-information{
+    text-align: end;
+    background:rgb(9, 9, 97);
+    color: aliceblue;
+    padding: 15px 0px;
+    border-radius: 40%;
+    position: absolute;
+    top:64%;
+    left: 80%;
+
+}
